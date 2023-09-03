@@ -1,6 +1,4 @@
-body{
-    padding-bottom: 500px;
-}
+body{padding-bottom: 500px;}
 h3{
 color:green;
 }
@@ -8,3 +6,110 @@ p{
     color:black
 }
 /* Comentários*/
+/*class*/
+.paragraph{
+    background-color: black;
+    color:aqua;
+    padding: 5px;
+
+}
+/*id*/
+#exclusive-title{
+background-color: blueviolet;
+color:black;
+padding: 5px;
+}/*ordem das regras*/
+h2{
+border-bottom: 2px solid red;
+}
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+.titulo{
+border-bottom: 2px solid blue;
+}
+/*Cores function css*/
+.color.name{
+color:rgb(119, 11, 11);
+}
+.hex{
+    color:#55a398;
+    font-size: 50px;
+}
+.hex2{
+    color:#fffa23;
+    font-size: 50px;
+}
+.hex3{
+    color:#aaff;
+    font-size: 50px;
+}
+.rgb{
+color:rgb(255,0,0);
+font-size: 50px;
+}
+.mixer-rgb{
+    color:rgb(255,10,99);
+    font-size: 50px;
+}
+.rgba{
+    color:rgba(200,99,45,.09);
+    font-size: 50px;
+}
+.hsl{
+    color:hsl(100, 20%, 50%);
+    font-size: 50px;
+}
+.hsl2{
+    color:hsl(201, 74%, 10%);
+    font-size: 50px;
+}
+.fundo{
+background-color: #55a398;
+color:#fffa23
+}
+.fundo2{
+    background-color: #a3558e;
+    color:darkblue
+}
+.fundo3{
+    background-color: #a38c55;
+    color:black
+}
+.bg-opacity{
+    background: #fffa23;
+    opacity: 0.3;
+}
+.bg-opacity2{
+    background: #ff23b9;
+    opacity: 0.8;
+}
+.rbga-opacity{
+background-color: rgba(90, 120, 20, 0.2);
+color: black;
+
+}
+/*Imagens css*/
+
+.bg-image{
+    background-image: url('https://img.freepik.com/fotos-premium/feche-acima-da-folha-verde-da-vista-da-natureza-no-fundo-borrado-das-hortalicas-sob-a-luz-solar-com-espaco-do-bokeh-e-da-copia-usando-como-a-paisagem-natural-das-plantas-do-fundo_105035-772.jpg');
+
+
+}
+.bg-image2{
+    background-image: url('https://cdn.britannica.com/02/20302-050-C9632F53/Seto-Great-Bridge-Inland-Sea-Kojima-Honshu.jpg');
+
+
+}
+.not-bg-center,.centerred-bg{
+   height: 400px;
+   width: 400px;
+   background-image: url('https://cdn.britannica.com/02/20302-050-C9632F53/Seto-Great-Bridge-Inland-Sea-Kojima-Honshu.jpg');
+}
+.not-bg-center{
+
+}
+.centerred-bg{
+    background-position: center;
+    background-size: cover;
+}
