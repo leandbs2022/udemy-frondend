@@ -1,115 +1,481 @@
-body{padding-bottom: 500px;}
-h3{
-color:green;
+body {
+    padding-bottom: 500px;
 }
-p{
-    color:black
+
+h3 {
+    color: green;
 }
+
+p {
+    color: black
+}
+
 /* Comentários*/
 /*class*/
-.paragraph{
+.paragraph {
     background-color: black;
-    color:aqua;
+    color: aqua;
     padding: 5px;
 
 }
+
 /*id*/
-#exclusive-title{
-background-color: blueviolet;
-color:black;
-padding: 5px;
-}/*ordem das regras*/
-h2{
-border-bottom: 2px solid red;
+#exclusive-title {
+    background-color: blueviolet;
+    color: black;
+    padding: 5px;
 }
-#algum-titulo{
+
+/*ordem das regras*/
+h2 {
+    border-bottom: 2px solid red;
+}
+
+#algum-titulo {
     border-bottom: 4px solid green;
 }
-.titulo{
-border-bottom: 2px solid blue;
+
+.titulo {
+    border-bottom: 2px solid blue;
 }
+
 /*Cores function css*/
-.color.name{
-color:rgb(119, 11, 11);
+.color.name {
+    color: rgb(119, 11, 11);
 }
-.hex{
-    color:#55a398;
+
+.hex {
+    color: #55a398;
     font-size: 50px;
 }
-.hex2{
-    color:#fffa23;
+
+.hex2 {
+    color: #fffa23;
     font-size: 50px;
 }
-.hex3{
-    color:#aaff;
+
+.hex3 {
+    color: #aaff;
     font-size: 50px;
 }
-.rgb{
-color:rgb(255,0,0);
-font-size: 50px;
-}
-.mixer-rgb{
-    color:rgb(255,10,99);
+
+.rgb {
+    color: rgb(255, 0, 0);
     font-size: 50px;
 }
-.rgba{
-    color:rgba(200,99,45,.09);
+
+.mixer-rgb {
+    color: rgb(255, 10, 99);
     font-size: 50px;
 }
-.hsl{
-    color:hsl(100, 20%, 50%);
+
+.rgba {
+    color: rgba(200, 99, 45, .09);
     font-size: 50px;
 }
-.hsl2{
-    color:hsl(201, 74%, 10%);
+
+.hsl {
+    color: hsl(100, 20%, 50%);
     font-size: 50px;
 }
-.fundo{
-background-color: #55a398;
-color:#fffa23
+
+.hsl2 {
+    color: hsl(201, 74%, 10%);
+    font-size: 50px;
 }
-.fundo2{
+
+.fundo {
+    background-color: #55a398;
+    color: #fffa23
+}
+
+.fundo2 {
     background-color: #a3558e;
-    color:darkblue
+    color: darkblue
 }
-.fundo3{
+
+.fundo3 {
     background-color: #a38c55;
-    color:black
+    color: black
 }
-.bg-opacity{
+
+.bg-opacity {
     background: #fffa23;
     opacity: 0.3;
 }
-.bg-opacity2{
+
+.bg-opacity2 {
     background: #ff23b9;
     opacity: 0.8;
 }
-.rbga-opacity{
-background-color: rgba(90, 120, 20, 0.2);
-color: black;
+
+.rbga-opacity {
+    background-color: rgba(90, 120, 20, 0.2);
+    color: black;
 
 }
+
 /*Imagens css*/
 
-.bg-image{
+.bg-image {
     background-image: url('https://img.freepik.com/fotos-premium/feche-acima-da-folha-verde-da-vista-da-natureza-no-fundo-borrado-das-hortalicas-sob-a-luz-solar-com-espaco-do-bokeh-e-da-copia-usando-como-a-paisagem-natural-das-plantas-do-fundo_105035-772.jpg');
 
 
 }
-.bg-image2{
+
+.bg-image2 {
     background-image: url('https://cdn.britannica.com/02/20302-050-C9632F53/Seto-Great-Bridge-Inland-Sea-Kojima-Honshu.jpg');
 
 
 }
-.not-bg-center,.centerred-bg{
-   height: 400px;
-   width: 400px;
-   background-image: url('https://cdn.britannica.com/02/20302-050-C9632F53/Seto-Great-Bridge-Inland-Sea-Kojima-Honshu.jpg');
-}
-.not-bg-center{
 
+.not-bg-center,
+.centerred-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url('https://cdn.britannica.com/02/20302-050-C9632F53/Seto-Great-Bridge-Inland-Sea-Kojima-Honshu.jpg');
 }
-.centerred-bg{
+
+.centerred-bg {
     background-position: center;
     background-size: cover;
+}
+
+/*Largura e altura*/
+.heigth-width {
+    height: 200px;
+    width: 100px;
+    background-color: #55a398;
+}
+
+.heigth-width2 {
+    height: 300px;
+    background-color: #a35589;
+}
+
+.wihout-padding,
+.padding {
+    background-color: black;
+    color: #fff
+}
+
+.padding {
+    background-color: rgb(0, 20, 0);
+    padding: 20px;
+}
+
+.padding-invidual {
+    background-color: #a38c55;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+}
+
+.shorthand-padding {
+    background-color: #fffa23;
+    color: blue;
+    padding: 10px 20px;
+    /*padding: 6px 12px 18px 24px;*/
+}
+
+.width-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border2 {
+    border: 5px dotted red;
+    padding: 25px;
+}
+
+.border-left {
+    border-left: 5px solid red;
+    background-color: rgb(105, 25, 25);
+    padding: 25px;
+}
+
+.border-bottom {
+    border-bottom: 5px double #999;
+    background-color: blueviolet;
+    padding: 25px;
+}
+
+.border-radius {
+    border-bottom: 5px double #999;
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.margin {
+    margin: 10px;
+    background-color: #222;
+}
+
+.margin-top {
+    margin: 50px;
+    background-color: #444;
+    padding: 10px;
+}
+
+.margin-shorthand {
+    margin: 5px 10px 15px 20px;
+    background-color: #466;
+}
+
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+
+}
+
+#box-model-desafio {
+    background-color: #a38c55;
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #fffa23;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+}
+
+.box-texto {
+    color: crimson
+}
+
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+
+}
+
+/*Linha sobre txt*/
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+}
+
+/*Caixa alta e baixa*/
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.spacing {
+    letter-spacing: 5px;
+}
+
+/*Font family*/
+.serif {
+    font-family: Georgia;
+}
+
+.sans-sarif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-family: 'Courier New';
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/*text style*/
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/*Largura*/
+.thin,
+.bold,
+.bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/*Font-size*/
+.small {
+    font-size: 10px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+/*Display*/
+.incline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #333;
+    display: block;
+    margin: 10px;
+}
+
+.invisive {
+    display: none;
+}
+
+/*Position*/
+.static {
+    position: static;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+.relative {
+    position: relative;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    left: 50px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #55a398;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+    ;
+
+}
+
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color: #55a398;
+    border: 1px solid blue;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: #845;
+    border: 1px solid blue;
+    position: sticky;
+    top: 10px;
+}
+
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 68, 112);
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0px;
+    left: 0px;
+    background-color: #466;
+    z-index: 3;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: rgb(102, 102, 68);
+    z-index: 2;
+}
+
+.absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: rgb(102, 68, 68);
 }
