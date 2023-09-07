@@ -1,65 +1,79 @@
-html{
+html {
     background-color: #ddd;
     font-family: Helvetica;
 }
-.container{
+
+.container {
     max-width: 1100px;
     background-color: white;
     position: relative;
     margin: 50px auto;
     padding: 20px 50px;
 }
-.mail-title{
+
+.mail-title {
     text-align: center;
 }
-.main-paragraph{
+
+.main-paragraph {
     text-align: center;
 }
-.bold{
-   font-weight: bold;
+
+.bold {
+    font-weight: bold;
 }
+
 /*header*/
-.header{
+.header {
     font-size: 40px;
 }
-.main.paragraph{
+
+.main.paragraph {
     font-style: italic;
 }
-.featured-image{
+
+.featured-image {
     text-align: center;
     margin-top: 30px;
 }
+
 /*biografia*/
-.biography-container{
+.biography-container {
     padding: 25px 0;
     margin: 25px 0;
     border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
 }
-.img-bold{
-   font-weight: bold;
-   text-align: center;
+
+.img-bold {
+    font-weight: bold;
+    text-align: center;
 }
+
 /*quotes*/
-.quotes-container{
+.quotes-container {
     background-color: #ddd;
     padding: 30px 0;
 }
-.quotes-container blockquote{
+
+.quotes-container blockquote {
     font-weight: bolder;
     font-size: 30px;
 }
-.quotes-container p{
+
+.quotes-container p {
     font-style: italic;
 }
+
 /*curiosidade*/
-.curiosities-container{
+.curiosities-container {
     padding: 25px 0;
     margin: 25px 0;
     border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
     background-color: white;
 }
-.curiosities-container li{
+
+.curiosities-container li {
     height: 30px;
 }
