@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+
+@media screen and (max-width:500px) {
+
+    h1 {
+        color: blue;
+    }
+
+}
+
+/*min width*/
+p {
+    font-size: 18px;
+    background-color: red;
+    color: black
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        background-color: #749;
+        color: red;
+    }
+}
