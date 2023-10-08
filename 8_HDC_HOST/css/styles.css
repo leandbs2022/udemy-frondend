@@ -37,7 +37,7 @@ p {
     background-color: #333;
     position: fixed;
     top: 0;
-    opacity: 0.9;
+    opacity: 0.8;
     width: 100%;
 }
 
@@ -304,14 +304,17 @@ nav {
     text-align: center;
     padding: 5rem 0 2rem 0;
 }
+
 .contact-container h2 {
     font-size: 36px;
     margin-bottom: 15px;
 }
+
 .contact-container p {
     font-size: 20px;
     margin-bottom: 40px;
 }
+
 .contact-container input,
 .contact-container textarea {
     width: 200px;
@@ -321,9 +324,11 @@ nav {
     border: 1px solid #ccc;
     margin: 0 10px 20px;
 }
-.contact-container input{
+
+.contact-container input {
     width: 224px;
 }
+
 .contact-container textarea {
     display: block;
     margin: 0 auto 20px;
@@ -337,4 +342,83 @@ nav {
     color: #fff;
     background-color: #2cc76a;
     cursor: pointer;
+}
+
+/*responsividade*/
+/*laptops a partir de 1110px*/
+@media(max-width: 1110px) {
+
+    .plans-container {
+
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/*Tables a partir de 900px*/
+@media(max-width: 900px) {
+
+    .main-banner p {
+        padding: 0 6rem;
+
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4;
+    }
+}
+
+/*Smartphone a partir de 600px*/
+@media(max-width: 576px) {
+
+    html,
+    body {
+
+        overflow-x: hidden;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+        padding: 3rem 2rem;
+
+    }
+
+    #logotipo {
+        opacity: 0;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4;
+        font-size: 28px;
+    }
+
+
 }
