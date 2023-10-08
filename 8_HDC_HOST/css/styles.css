@@ -175,6 +175,7 @@ nav {
 .pricing-container {
     padding-bottom: 5rem;
     text-align: center;
+
 }
 
 .pricing-container h2 {
@@ -192,7 +193,9 @@ nav {
     margin: 0 auto;
 
 }
-
+.plans-container .plan{
+    margin-top: 35px;
+}
 .plan {
     flex: 1;
     max-width: 275px;
@@ -201,6 +204,7 @@ nav {
 
 .plan ul {
     padding: 0;
+
 }
 
 .plan li {
