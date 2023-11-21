@@ -110,7 +110,7 @@ nav {
     color: #fff;
     text-align: center;
     font-weight: bold;
-    text-shadow: #000 3px 20px 3px;
+   /* text-shadow: #E6E6E6 3px 3px 3px;*/
 }
 
 .main-banner h1 {
@@ -412,7 +412,7 @@ nav {
     }
 
     #logotipo {
-        opacity: 0;
+        opacity: 1;
     }
 
     .services {
