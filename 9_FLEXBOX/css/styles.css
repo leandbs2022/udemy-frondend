@@ -1,9 +1,142 @@
-body{
+body {
     padding-bottom: 500px;
 }
 
-.flex{
-display: flex;
-background-color: #ddd;
-margin-bottom: 20px;
+/*menu*/
+.menu{
+    display:flex;
+    position:fixed;
+    right: 0;
+    color:blueviolet;
+
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 10px;
+}
+
+/*1 Flex*/
+.flex {
+    display: flex;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+/*2 - column*/
+.flex-column {
+    display: flex;
+    background-color: #ccc;
+    flex-direction: column;
+
+}
+
+/*2 - Wrap*/
+.wrap {
+
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
+}
+
+/*justufy content*/
+.center,
+.space-beween,
+.space-around,
+.end {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.center .box {
+    width: 50px;
+}
+
+.space-around .box {
+    width: 50px;
+}
+
+.space-beween .box {
+    width: 50px;
+}
+
+.end .box {
+    width: 50px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-beween {
+    justify-content: space-between;
+}
+
+.end {
+    justify-content: end;
+}
+
+/*align items*/
+
+.align-center,
+.flex-end,
+.stretch {
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue
+}
+
+.align-center .box,
+.flex-end .box,
+.stretch .box {
+    width: 50px;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-end {
+    align-items: end;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.stretch .box {
+    height: auto;
+}
+
+/*Gap*/
+
+.gap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid green;
+    gap: 10px;
+}
+
+.gap .box {
+    width: 32%;
 }
